@@ -1,0 +1,56 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+#about {
+  background: #fff;
+  padding: 20px;
+}
+
+#about .avatar {
+  max-width: 100%;
+  margin: 15px 0;
+}
+
+@media (min-width: 700px) {
+  #about article {
+    display: flex;
+  }
+
+  #about .avatar {
+    margin: 5px 15px 15px 0;
+    max-width: 320px;
+  }
+}
+
+#projects {
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+#contact {
+  background: #fff;
+  padding: 20px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact article div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#contact article strong {
+  font-size: 15px;
+}
+
+#contact article span {
+  font-size: 15px;
+}
